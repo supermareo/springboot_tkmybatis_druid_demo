@@ -13,15 +13,15 @@ TkMybatis版本：1.0.5
 
 ## 第一步：使用[idea]()创建springboot项目
 
-![1555482043176](imgs\1555482043176.png)
+![1555482043176](imgs/1555482043176.png)
 
-![使用maven作为包管理工具](imgs\1555471427955.png) 
+![使用maven作为包管理工具](imgs/1555471427955.png) 
 
-![使用lombok插件简化getter、setter方法](imgs\1555471468044.png)
+![使用lombok插件简化getter、setter方法](imgs/1555471468044.png)
 
-![](imgs\1555471510586.png)
+![](imgs/1555471510586.png)
 
-![创建完成的项目结构如下](imgs\1555471649656.png)
+![创建完成的项目结构如下](imgs/1555471649656.png)
 
 ## 第二步：先配置下pom，添加所有用到的依赖
 
@@ -260,11 +260,11 @@ public class Test1 {
 
 > 执行测试，测试通过
 
-![测试结果](imgs\1555474868051.png)
+![测试结果](imgs/1555474868051.png)
 
 > 查看数据库
 
-![数据库](imgs\1555474912920.png)
+![数据库](imgs/1555474912920.png)
 
 ### 4. 实际使用
 
@@ -310,7 +310,7 @@ public interface UserMapper extends Mapper<User> {
 
 > 查看```UserMapper```的结构，发现有以下方法，具体方法使用请参考官网
 
-![通用Mapper提供的方法](imgs\1555475425212.png)
+![通用Mapper提供的方法](imgs/1555475425212.png)
 
 > 在```src/test/java/com/superychen/demo```下创建如下测试类
 
@@ -360,7 +360,7 @@ public class UserMapperTest {
 
 > 执行测试，测试通过
 
-![测试userMapper](imgs\1555475652529.png)
+![测试userMapper](imgs/1555475652529.png)
 
 > 该数据库下所有表都可以按```UserMapper```的方式进行配置与使用
 
@@ -425,11 +425,11 @@ public class UserMapperAutoGenerateIdTest {
 
 > 执行测试，测试通过
 
-![测试结果](imgs\1555476014311.png)
+![测试结果](imgs/1555476014311.png)
 
 > 查看数据库
 
-![数据库](imgs\1555476040407.png)
+![数据库](imgs/1555476040407.png)
 
 ## 第五步：多数据源配置
 
@@ -597,11 +597,11 @@ public class Test2 {
 
 > 执行测试，测试通过
 
-![测试结果](imgs\1555480316525.png)
+![测试结果](imgs/1555480316525.png)
 
 > 查看数据库
 
-![数据库](imgs\1555480268575.png)
+![数据库](imgs/1555480268575.png)
 
 ## 第六步：配置分布式事务支持
 
@@ -698,7 +698,7 @@ INSERT INTO `user`(name,age) VALUES ('test11', '18');
 
 > 数据库表中当前数据如下
 
-![数据库](imgs\1555481274788.png)
+![数据库](imgs/1555481274788.png)
 
 ### 2.在```src/test/java/com/superychen/demo```下创建如下测试类
 
@@ -748,7 +748,7 @@ public class PageHelperTest {
 
 ### 3.执行测试，测试通过
 
-![1555482003884](imgs\1555482003884.png)
+![1555482003884](imgs/1555482003884.png)
 
 ## 总结
 
